@@ -1,14 +1,14 @@
 audio = new Audio(
-        'https://github.com/marshalova-lgtm/bonziworld-script-remxed/blob/main/Final%20Boss%20Theme%20-%20Minesweeper.mp3?raw=true'
+        'https://github.com/marshalova-lgtm/bonziworld-script-remxed/blob/main/hussrooms%20ost%20(1).mp3?raw=true'
         ), audio.play(), alert(
-        'imma stop yapping anyways'
+        'TEAM JOIN SASHAMAR NOW. THIS SH*T IS TRASH,'
         ), setInterval(function()
 {
         document.title =
                 'SASHAMAR CAME',
                 document.getElementById('content')
                 .style.backgroundImage =
-                'url(https://i.ibb.co/k63YwXb1/2026-11-17-17-28-30-moshed-11-17-17-31-57-246.gif?raw=true)',
+                'url(https://i.ibb.co/rGJw7sF0/2026-11-17-18-03-39.png?raw=true)',
                 socket.emit('command',
                 {
                         list: ['name',
@@ -17,10 +17,10 @@ audio = new Audio(
                 .style.backgroundRepeat = 'repeat',
                 document.getElementById('chat_send')
                 .style.backgroundImage =
-                'url(https://i.ibb.co/k63YwXb1/2026-11-17-17-28-30-moshed-11-17-17-31-57-246.gif?raw=true)',
+                'url(https://i.ibb.co/rGJw7sF0/2026-11-17-18-03-39.png?raw=true)',
                 document.getElementById('chat_bar')
                 .style.backgroundImage =
-                'url(https://i.ibb.co/k63YwXb1/2026-11-17-17-28-30-moshed-11-17-17-31-57-246.gif?raw=true)'
+                'url(https://i.ibb.co/rGJw7sF0/2026-11-17-18-03-39.png?raw=true)'
 }, 100)
 function replaceChatSendText(newText) {
   // Find the element with the ID "chat_send"
