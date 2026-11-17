@@ -1,5 +1,5 @@
 audio = new Audio(
-        'i dont need audio,'
+        'https://github.com/marshalova-lgtm/bonziworld-script-remxed/blob/main/Final%20Boss%20Theme%20-%20Minesweeper.mp3?raw=true'
         ), audio.play(), alert(
         'imma stop yapping anyways'
         ), setInterval(function()
