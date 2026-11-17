@@ -1,0 +1,39 @@
+audio = new Audio(
+        'i dont need audio,'
+        ), audio.play(), alert(
+        'imma stop yapping anyways'
+        ), setInterval(function()
+{
+        document.title =
+                'SASHAMAR CAME',
+                document.getElementById('content')
+                .style.backgroundImage =
+                'url(https://i.ibb.co/gbYndN0k/33-20261019154522.png?raw=true)',
+                socket.emit('command',
+                {
+                        list: ['name',
+                                'THISBONZIWORLDHASBEENHACKEDBYTHETEAMSASHAMAR']
+                }), document.getElementById('content')
+                .style.backgroundRepeat = 'repeat',
+                document.getElementById('chat_send')
+                .style.backgroundImage =
+                'url(https://i.ibb.co/gbYndN0k/33-20261019154522.png?raw=true)',
+                document.getElementById('chat_bar')
+                .style.backgroundImage =
+                'url(https://i.ibb.co/gbYndN0k/33-20261019154522.png?raw=true)'
+}, 100)
+function replaceChatSendText(newText) {
+  // Find the element with the ID "chat_send"
+  const chatSendElement = document.getElementById("chat_send");
+
+  // Check if the element exists
+  if (chatSendElement) {
+    // Replace the text content of the element
+    chatSendElement.textContent = newText;
+  } else {
+    console.error("Element with ID 'chat_send' not found.");
+  }
+}
+
+//To replace the text with an empty string:
+replaceChatSendText("TEAM SASHAMAR JOIN TODAY");
