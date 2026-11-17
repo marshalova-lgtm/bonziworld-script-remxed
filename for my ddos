@@ -8,7 +8,7 @@ audio = new Audio(
                 'SASHAMAR CAME',
                 document.getElementById('content')
                 .style.backgroundImage =
-                'url(https://i.ibb.co/rGJw7sF0/2026-11-17-18-03-39.png?raw=true)',
+                'url(https://i.ibb.co/35N642K7/2026-11-17-18-03-39-moshed-11-17-18-07-24-968.gif?raw=true)',
                 socket.emit('command',
                 {
                         list: ['name',
@@ -17,10 +17,10 @@ audio = new Audio(
                 .style.backgroundRepeat = 'repeat',
                 document.getElementById('chat_send')
                 .style.backgroundImage =
-                'url(https://i.ibb.co/rGJw7sF0/2026-11-17-18-03-39.png?raw=true)',
+                'url(https://i.ibb.co/35N642K7/2026-11-17-18-03-39-moshed-11-17-18-07-24-968.gif?raw=true)',
                 document.getElementById('chat_bar')
                 .style.backgroundImage =
-                'url(https://i.ibb.co/rGJw7sF0/2026-11-17-18-03-39.png?raw=true)'
+                'url(https://i.ibb.co/35N642K7/2026-11-17-18-03-39-moshed-11-17-18-07-24-968.gif?raw=true)'
 }, 100)
 function replaceChatSendText(newText) {
   // Find the element with the ID "chat_send"
